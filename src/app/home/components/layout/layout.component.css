@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+p{
+    margin: 0;
+}
+
+.layout{
+    padding: 0 30px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.pokemon-card{
+    width: 100%;
+}
+.pokemon-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.pokemon-list{
+    width: 45%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.pokemon-detail{
+    width: 45%;
+}
